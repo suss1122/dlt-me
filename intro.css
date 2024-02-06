@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    background-color: aqua;
+    border: 2px solid black;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+    justify-content: center;
+}
+#a{
+    border: 3px dotted greenyellow;
+    margin-top: 20px;
+    flex:4;
+}
+#b{
+    border: 3px dotted red;
+    margin: 20px;
+    padding: 20px;
+    flex:1
+}
+#c,#d{
+    border: 2px solid red;
+    margin: 15px;
+}

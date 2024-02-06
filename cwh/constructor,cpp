@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+class employee
+{
+    int a;
+    int b;
+    public:
+    void sum()
+    {
+        cout<<a+b;
+    }
+        employee()
+        {
+            cout<<"this is constructor."<<endl;
+        }
+    
+    
+};
+int main()
+{
+    employee sushant;
+    return 0;             
+}
